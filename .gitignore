@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+# (Files generated when building packages for PyPI)
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# (Always exclude your local dependencies)
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables and secrets
+# (Never commit your API keys, tokens, or passwords)
+.env
+.env.*
+.secrets
+.openapi-auth.json
+
+# Inline/Testing coverage & reports
+htmlcov/
+.tox/
+.nosenv/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.stats
+.pytest_cache/
+.history/
+
+# IDEs and Editors (Optional but highly recommended)
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
