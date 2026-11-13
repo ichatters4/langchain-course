@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
-from langchain_ollama import ChatOllama
 
 
 def get_api_key() -> str | None:
@@ -68,8 +67,6 @@ Musk is a supporter of global far-right politics, figures, and political parties
     chain = summary_prompt_template | llm
     response = chain.invoke(input={"information": information})
     print(response.content)
-
-
 
 
 
